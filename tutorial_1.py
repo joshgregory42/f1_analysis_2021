@@ -16,7 +16,7 @@ import numpy as np
 import pandas as pd
 
 # DPI value for plotting
-dpi_val = 500
+dpi_val = 5000
 
 
 # Setup plotting
@@ -126,9 +126,8 @@ for a in ax.flat:
     a.label_outer()
 
 
+plt.savefig('ric_ver_stint1.png', dpi=dpi_val)
 plt.show()
-plt.savefig('ric_ver_stint1.png')
-#, dpi=dpi_val)
 
 # VER is close to RIC during lap 4, so let's analyze that
 
@@ -180,8 +179,8 @@ ax[4].set(ylabel="DRS")
 for a in ax.flat:
     a.label_outer()
 
+
+plt.savefig('ric_ver_lap4', dpi=dpi_val)
 plt.show()
-plt.savefig('ric_ver_lap4')
-#, dpi=dpi_val)
 
 print("\n Program executed")
