@@ -16,7 +16,7 @@ import numpy as np
 import pandas as pd
 
 # DPI value for plotting
-dpi_val = 5000
+dpi_val = 1500
 
 
 # Setup plotting
