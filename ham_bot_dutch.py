@@ -11,8 +11,7 @@ dpi_val = 1500
 plotting.setup_mpl()
 
 # Enable the cache
-ff1.Cache.enable_cache('C:/Users/Josh Gregory/OneDrive - UCB-O365/Current Projects/F1 Analysis '
-                       'Python/ham_bot_dutch/ham_bot_dutch_cache')
+ff1.Cache.enable_cache('../path_to_cache')
 
 # Loading the session data
 race = ff1.get_session(2021, 'Zandvoort', 'R')
