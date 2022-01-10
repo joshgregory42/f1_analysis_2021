@@ -24,7 +24,7 @@ plotting.setup_mpl()
 
 
 # Enabling the cache to prevent long wait times
-ff1.Cache.enable_cache('C:/Users/Josh Gregory/OneDrive - UCB-O365/Current Projects/F1 Analysis Python/tutorial_1_cache')
+ff1.Cache.enable_cache('../path_to_cache')
 
 # Get rid of some pandas warnings that don't matter
 pd.options.mode.chained_assignment = None
